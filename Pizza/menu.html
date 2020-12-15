@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy!!</title>
+	
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+	<!--Owl Carosel-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+	<!--Main Home Section-->
+
+	 <!--<section id="main-home">
+			<!--Header
+			<header>
+				<div class="container">
+					<div class="header-top d-flex justify-content-between">
+
+					 <div class="d-flex">
+						<div class="item">
+							<p>Follow Us:</p>
+						</div>
+						<div class="item">
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
+					  </div>
+
+					  <div class="d-flex">
+						  <div class="item">
+							  <p><i class="fas fa-phone-alt"></i>+91 8989899</p>
+						  </div>
+						  <div class="item">
+							<p><i class="fas map-marker-alt"></i>DSK,Pune</p>
+						</div>
+
+					  </div>
+						
+					</div>
+				</div>
+			</header>
+	</section> -->
+	
+	
+
+	  <nav class="navbar navbar-expand-lg navbar-light ">
+	    <div class="container">
+			<a class="navbar-brand" href="#">LOGO</a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="oi oi-menu"></span> Menu
+		      </button>
+	      <div class="collapse navbar-collapse">
+	        <ul class="navbar-nav ml-auto">
+			  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+			  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="cart"><a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart <span>0</span></a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+
+
+	 <section class="row">
+		<div class="col" ng-repeat="data in menuData">
+		<div class="card" style="width: 18rem; height: 27rem;">
+		  <img class="card-img-top" src={{data.img}} alt="Card image cap" height="160rem">
+		  <span class="price">Rs. {{data.price}}</span>
+		  <div class="card-body">
+			<h5 class="card-title">{{data.title}}</h5>
+			<p class="card-text">{{data.info}}</p>
+		  <div class="btn-group">	
+			<div class="dropdown">
+			  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Size
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">Regular</a>
+				<a class="dropdown-item" href="#">Medium</a>
+				<a class="dropdown-item" href="#">Large</a>
+			  </div>
+			</div>
+  
+			<div class="dropdown text-right">
+			  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Crust
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">New Hand Tossed</a>
+				<a class="dropdown-item" href="#">Cheese Burst</a>
+				<a class="dropdown-item" href="#">Fresh Pan Pizza</a>
+			  </div>
+			</div>
+		  </div>  
+		  <hr>
+			<button class="btn btn-success add-cart" ng-click="myFunc()">Add to Cart</button>
+		  </div>
+		</div>
+	  </div>
+	
+
+	  </section>
+
+	
+
+	
+   
+
+
+
+
+<!--Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* #main-home .header-top .item a {
+    color: #000000;
+    padding: 10px;
+}
+
+#main-home .header-top .item a:hover {
+    color: #FF004D;
+} */
+
+
+/******Item Card********/
+
+#menuTitle {
+    font-size: 35px;
+    padding: 20px;
+}
+
+#main-content {
+    margin-top: 35px;
+    /* margin-bottom: 40px; */
+}
+
+
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 2px 4px 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dropdown {
+    margin-right: 95px;
+}
+
+.item-price {
+    text-align: center;
+}
+
+
+/******Cart page*****/
+
+
+
+.container-products {
+    max-width: 900px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container-products ion-icon {
+    font-size: 25px;
+    color: rgb(0, 110, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+   /* padding: 10px;*/
+}
+
+.product ion-icon {
+    cursor: pointer;
+    
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 200px;
+    height: 150px;
+}
+
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+
+
+
