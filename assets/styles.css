@@ -8,11 +8,31 @@
 } */
 
 
+/* *******Home Page */
+
+
+
+
+.ftco-navbar-light {
+    background: #121618 !important;
+    z-index: 3;
+}
+
+small {
+    letter-spacing: 4px;
+}
+
+
+/* *******slider */
+
+
+
 /******Item Card********/
 
 #menuTitle {
     font-size: 35px;
     padding: 20px;
+    color: white;
 }
 
 #main-content {
@@ -39,6 +59,15 @@
 
 /******Cart page*****/
 
+.cart {
+    margin-right: 80px;
+    text-align: end;
+    font-size: 20px;
+}
+
+.cart1 {
+    font-size: 19px;
+}
 
 
 .container-products {
@@ -131,6 +160,47 @@
 .basketTotal {
     width: 10%;
 }
+
+
+
+
+/* FOOTER */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+
+
+.icon{
+    font-size: 32px;
+    margin-right: 200px;
+}
+
+  /* END FOOTER */
 
 
 

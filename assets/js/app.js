@@ -80,6 +80,8 @@ let products = [
 
 ];
 
+
+
 for(let i=0 ; i < carts.length ; i++) {
     carts[i].addEventListener('click',()=> {
         cartNumbers(products[i]);
@@ -104,7 +106,6 @@ function cartNumbers(product, action) {
 
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
-
 
     if (action == 'decrease') {
         localStorage.setItem('cartNumbers', productNumbers - 1);
@@ -287,7 +288,17 @@ function manageQuantity() {
 
 
 
+
+
 onLoadCartNumbers();
 displayCart();
+
+
+
+
+
+
+
+
 
 
