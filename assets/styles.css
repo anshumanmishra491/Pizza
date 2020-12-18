@@ -25,6 +25,12 @@ small {
 
 /* *******slider */
 
+.carousel-item {
+    height: 40rem;
+    background: #777;
+    color: white;
+}
+
 
 
 /******Item Card********/
@@ -162,6 +168,11 @@ small {
 }
 
 
+/* checkout button */
+
+
+
+
 
 
 /* FOOTER */
@@ -200,7 +211,7 @@ small {
     margin-right: 200px;
 }
 
-  /* END FOOTER */
+  /* END FOOTER */ 
 
 
 
