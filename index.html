@@ -18,14 +18,16 @@
 <body style="background-image: url(assets/images/bg_4.jpg);">
 	<!--Main Home Section-->
 
-		
+	
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 			<a class="navbar-brand" href="index.html"><img src="assets/images/flaticon/pizza.png">Pizza<small><br>Delicous</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<!-- <span class="oi oi-menu"></span> -->
+				<span class="navbar-toggler-icon"></span>Menu
 		        </button>
-	      <div class="collapse navbar-collapse">
+	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 			  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 			  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
@@ -46,25 +48,40 @@
 	  <div class="carousel-inner">
 		<div class="carousel-item active">
 			<div class="container">
-				<h1>Pizza</h1>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, repellendus amet, porro voluptates, minima ex dolor nobis est consectetur error iste quibusdam neque iure praesentium quae sunt facere libero enim.</p>
-				<p><a href="menu.html" class="btn btn-primary">Order Now</a>
+				<div class="col-md-7 col-sm-12 carousel-text">
+					<span class="subheading">Welcome</span>
+				  <h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
+				  <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				  <p><a href="menu.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+				</div>
+				<img src="assets/images/2.png" class="img-responsive" alt="">
+				<!-- <a href="menu.html" class="btn btn-primary">Order Now</a> -->
 			</div>
 			</div>
 	
 			<div class="carousel-item">
 			<div class="container">
-				<h1>Pizza</h1>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, repellendus amet, porro voluptates, minima ex dolor nobis est consectetur error iste quibusdam neque iure praesentium quae sunt facere libero enim.</p>
-				<p><a href="menu.html" class="btn btn-primary">Order Now</a>
+				<div class="col-md-6 col-sm-12 carousel-text ">
+					<span class="subheading">Delicious</span>
+				  <h1 class="mb-4">Italian Cuizine</h1>
+				  <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				  <p><a href="menu.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a>
+				</div>
+				<img src="assets/images/pizza-banner-2.png" class="img-fluid" alt="">
+				
 			</div>
 			</div>
 	
 			<div class="carousel-item">
 			<div class="container">
-				<h1>Pizza</h1>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, repellendus amet, porro voluptates, minima ex dolor nobis est consectetur error iste quibusdam neque iure praesentium quae sunt facere libero enim.</p>
-				<p><a href="menu.html" class="btn btn-primary">Order Now</a>
+				<div class="col-md-6 col-sm-12 carousel-text">
+					<span class="subheading">Delicious</span>
+				  <h1 class="mb-4">Italian Cuizine</h1>
+				  <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				  <p><a href="menu.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a>
+				</div>
+				<img src="assets/images/1.png"  class="img-fluid" alt="">
+				
 			</div>
 			</div>
 		</div>	
@@ -86,11 +103,7 @@
 			  Sunday Closed
 			  <hr class="visible-xs">
 			</section>
-			<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>	
+			
 			<section id="address" class="col-sm-4">
 			  <span>Address:</span><br>
 			  7105 Dhayari Road<br>
@@ -100,7 +113,7 @@
 			</section>
 			<section id="testimonials" class="col-sm-4">
 			  <p>"Order a delicious pizza on the go, anywhere, anytime. Pizza Delicious is happy to assist you with your home delivery."</p>
-			  <ul style="list-style : none; margin-top: 40px;">
+			  <ul style="list-style : none; margin-top: 50px;">
 				<li><a href="#"><i class="fas fa-phone-alt fa-lg" style="letter-spacing: 10px;"></i><span class="text">+2 392 3929 210</span></a></li>
 				<li><a href="#"><i class="far fa-envelope fa-lg" style="letter-spacing: 10px;"></i><span class="text">info@yourdomain.com</span></a></li>
 			  </ul>
