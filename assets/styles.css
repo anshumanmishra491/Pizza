@@ -175,10 +175,50 @@ small {
 }
 
 
-/* checkout button */
+/* sign up button */
+/* add #mymodal */
+#login-modal .modal-content {
+    width: 25rem;
+    margin: 0 auto;
+}
+.modal-content  h3 {
+    text-align: center;
+    color: rgba(199, 199, 104, 0.911);
+}
+.modal-body form {
+    padding: 8px 20px;
+}
+.modal-body form label {
+   display: block;
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+.modal-body form input {
+    width: 100%;
+    /* padding: 8px 10px; */
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #aaa;
+    background: #eee;
+    border-radius:5px;
+}
+.modal-footer button {
+    width: 100%;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: 600;
+    border-radius: 5px; 
+}
+.modal-content p {
+    text-align: center;
+}
 
 
-
+#register-modal .modal-content {
+    width: 28rem;
+    margin: 0 auto;
+}
 
 
 
@@ -211,12 +251,27 @@ small {
   #testimonials p:nth-child(2) {
     margin-top: 25px;
   }
+ 
 
 
-.icon{
-    font-size: 32px;
-    margin-right: 200px;
+.footer-icons{
+   list-style: none;
+   margin: 1em;
 }
+.footer-icons li {
+    display: inline-block;
+    margin: 25px;
+    position: relative;
+    font-size: 32px;
+}
+.footer-icons i {
+    color: #fff;
+    position: absolute;
+    top: -85px;
+    left: 21px;
+}
+
+
 
   /* END FOOTER */ 
 
@@ -233,6 +288,14 @@ small {
         margin: 0 auto;
         margin-bottom: 40px;
     }
+   
+    /* footer */
+    .footer-icons i {
+        margin-left: 26px;
+        position: relative;
+        top: -50px;
+        left: 0px;
+    } 
     }
 
  /* Footer */

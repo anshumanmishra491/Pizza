@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-			<a class="navbar-brand" href="index.html"><img src="assets/images/flaticon/pizza.png">Pizza<small><br>Delicous</small></a>
+			<a class="navbar-brand" href="index.html"><img src="assets/images/flaticon/logo-retina.png" width="130rem"></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="navbar-toggler-icon"></span>Menu
 		      </button>
@@ -91,24 +91,23 @@
 	
 
 	<div class="container">
-		<button class="btn btn-lg" data-target="#mymodal" data-toggle="modal">Proceed to Checkout</button>
+		<button class="btn btn-lg" data-target="#login-modal" data-toggle="modal">Proceed to Checkout</button>
 
-		<div class="modal fade" id="mymodal">
+		<div class="modal fade" id="login-modal">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
-						<div class="avatar">
-							<img src="assets/images/flaticon/pizza.png" alt="">
-						</div>&nbsp;&nbsp;
-						<h3 class="text-primary">Login</h3>
+						<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 100px;" alt="">
 						<button type="button" class="close" data-dismiss="modal"> &times; </button>
 					</div>
+					<h3>Sign Up</h3>
+					<h6 class="text-center">Welcome Back</h6>
 
 					<div class="modal-body">
 						<form action="">
 							<div class="form-group">
-								<label for="username">Username</label>
-								<input type="text" class="form-control" id="username">
+								<label for="username">Phone Number</label>
+								<input type="number" class="form-control" id="number">
 							</div>
 							<div class="form-group">
 								<label for="password">Password</label>
@@ -119,8 +118,10 @@
 
 					<div class="modal-footer justify-content-start">
 						<button class="btn btn-danger" data-dismiss="modal">Sign In</button>
-						<a href="" data-target="#register-modal" data-dismiss="modal" data-toggle="modal">Don't Have a Account?</a>
+						
 					</div>
+					<p>Don't Have a Account?<a href="" data-target="#register-modal" data-dismiss="modal" data-toggle="modal">  Register here</a></p>
+
 
 				</div>
 			</div>
@@ -132,36 +133,37 @@
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<div class="avatar">
-						<img src="assets/images/flaticon/pizza.png" alt="">
-					</div>&nbsp;&nbsp;
-					<h3 class="text-primary">Register</h3>
+					<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 120px;" alt="">
 					<button type="button" class="close" data-dismiss="modal"> &times; </button>
+				</div>
+				<h3>Register</h3>
+				<h6 class="text-center">Glad to meet you</h6>
 
-					<div class="modal-body">
-						<form action="">
-							<div class="form-group">
-								<label for="username">UserName</label>
-								<input type="text" class="form-control" id="username1">
-							</div>
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" class="form-control" id="email">
-							</div>
-							<div class="form-group">
-								<label for="password">Create Password</label>
-								<input type="password" class="form-control" id="password1">
-							</div>
-							<div class="form-group">
-								<label for="password">Conform Password</label>
-								<input type="password" class="form-control" id="password2">
-							</div>
+				<div class="modal-body">
+					<form action="">
+						<div class="form-group">
+							<label for="username">Phone Number</label>
+							<input type="number" class="form-control" id="reg-number">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="form-group">
+							<label for="password">Create Password</label>
+							<input type="password" class="form-control" id="reg-password">
+						</div>
+						<div class="form-group">
+							<label for="password">Confirm Password</label>
+							<input type="password" class="form-control" id="reg-password2">
+						</div>
+					</form>
+				</div>
 
-						</form>
-					</div>
-
-					<div class="modal-footer justify-content-start">
-						<button class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+				<div class="modal-footer justify-content-start">
+					<button class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+					
+				</div>
 					</div>	
 				</div>
 			</div>
