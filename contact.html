@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy!!</title>
+	
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!--Font Awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+	<!--Owl Carosel-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+	<link rel="stylesheet" href="assets/styles.css">
+	
+</head>
+<body style="background-image: url(assets/images/bg_4.jpg);">
+    <!--Main Home Section-->
+    	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/flaticon/logo-retina.png" width="130rem"></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<!-- <span class="oi oi-menu"></span> -->
+				<span class="navbar-toggler-icon"></span>Menu
+		        </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+			  <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+			  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+			  <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+			  <li class="nav-item"><a href="cart.html" class="cart nav-link"><i class="fas fa-shopping-cart"></i><span>0</span></a></li>
+			</ul>
+	      </div>
+		  </div>
+      </nav>
+      
+	<!-- Contact start -->
+	<div class="contact-head">  
+		<h2><span> Contact Us </span></h2>
+	</div>
+
+	<div class="contact">
+		<div class="container">
+			<div class="row align-items-center">
+
+				<div class="col-lg-6">
+					<div class="contact-info">
+						 <div class="row">
+							<div class="col-md-12 mb-4">
+								<h2 class="h4">Contact Information</h2>
+							  </div>
+							  <div class="col-md-12 mb-3">
+								<p><span>Address:</span>  7105 Dhayari Road DSK Vishwa, 411041</p>
+							  </div>
+							  <div class="col-md-12 mb-3">
+								<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+							  </div>
+							  <div class="col-md-12 mb-3">
+								<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+							  </div>
+							  <div class="col-md-12 mb-3">
+								<p><span>Website:</span> <a href="#">yoursite.com</a></p>
+							  </div>	
+						</div>	  
+					</div>
+				</div>
+
+				 <div class="col-lg-6">
+					<form name="myForm" onsubmit="return validateForm()">
+						<div class="control-group">
+							<input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+							<p></p>
+						</div>
+						<div class="control-group">
+							<input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+							<p></p>
+						</div>
+						<div class="control-group">
+							<input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+							<p></p>
+						</div>
+						<div class="control-group">
+							<textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+							<p></p>
+						</div>
+						<div>
+							<button class="btn" type="submit">Send Message</button>
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>			
+
+
+
+      
+
+
+
+
+    <!-- Footer -->
+
+	<footer class="panel-footer">
+		<div class="container">
+		  <div class="row">
+			<section id="hours" class="col-sm-4">
+			  <span>Hours:</span><br>
+			  Mon-Fri: 10:00am - 10:00pm<br>
+			  Saturday: 10;00am - 2:30pm<br>
+			  Sunday Closed
+			  <hr class="visible-xs">
+			</section>
+		     
+			
+			<section id="address" class="col-sm-4">
+			  <span>Address:</span><br>
+			  7105 Dhayari Road<br>
+			  DSK Vishwa, 411041
+			  <p>* Delivery Charges Exclusive *</p>
+			  <hr class="visible-xs">
+			</section>
+			<section id="testimonials" class="col-sm-4">
+			  <p>"Order a delicious pizza on the go, anywhere, anytime. Pizza Delicious is happy to assist you with your home delivery."</p>
+			  <ul style="list-style : none; margin-top: 50px;">
+				<li><a href="#"><i class="fas fa-phone-alt fa-lg" style="letter-spacing: 10px;"></i><span class="text">+2 392 3929 210</span></a></li>
+				<li><a href="#"><i class="far fa-envelope fa-lg" style="letter-spacing: 10px;"></i><span class="text">info@yourdomain.com</span></a></li>
+			  </ul>
+			</section>
+		  </div>
+		   	<ul class="footer-icons">
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+		  <div class="text-center">&copy; Copyright Pizza Delicious 2020</div>
+		</div>
+	  </footer>
+		  
+	
+	
+
+
+	 
+
+
+	
+   
+
+
+
+
+<!--Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>      

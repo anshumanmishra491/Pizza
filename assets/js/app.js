@@ -183,7 +183,7 @@ function displayCart() {
                     <span>${item.inCart}</span>
                 <ion-icon class="increase" name="arrow-dropright-circle"></ion-icon>   
             </div>
-            <div class="total">₹${item.inCart * item.price}.00</div>`;
+            <div class="total">₹&nbsp&nbsp;${item.inCart * item.price}.00</div>`;
         }); 
 
         productContainer.innerHTML += `
@@ -192,7 +192,7 @@ function displayCart() {
                     Basket Total
                 </h4>
                 <h4 class="basketTotal">
-                ₹${cartCost}.00
+                ₹&nbsp&nbsp;${cartCost}.00
                 </h4>
         `;
 
@@ -201,6 +201,8 @@ function displayCart() {
     deleteButtons();
     manageQuantity();
 }
+
+
 
 
 
@@ -237,6 +239,7 @@ function deleteButtons() {
     }
 
 }   
+
 
 
 function manageQuantity() {

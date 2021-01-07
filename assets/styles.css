@@ -1,17 +1,4 @@
-/* #main-home .header-top .item a {
-    color: #000000;
-    padding: 10px;
-}
-
-#main-home .header-top .item a:hover {
-    color: #FF004D;
-} */
-
-
 /* *******Home Page */
-
-
-
 
 .ftco-navbar-light {
     background: #121618 !important;
@@ -21,6 +8,55 @@
 small {
     letter-spacing: 4px;
 }
+
+
+/* Navigation bar */
+
+.navbar .container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fbaf32;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 1em 0.7em;
+    }
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+    font-size: 18px;
+    margin-right: 10px;
+   
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fbaf32;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+
+
 
 
 /*slider */
@@ -38,20 +74,37 @@ small {
     padding-left: 20px;
 }
 
+.carousel-inner .container .image1 {
+    position: relative;
+}
+
+ .image1 {
+    position: relative;
+    width: 50%;
+    border-radius: 15px;
+}
 
 /****Item Card****/
 
-#menuTitle {
+.menu-head h2 {
     font-size: 35px;
-    padding: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px auto;
     color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.menu-head h2 span {
+    background-color: #fbaf32;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
 }
 
 #main-content {
     margin-top: 35px;
     /* margin-bottom: 40px; */
 }
-
 
 
 .card {
@@ -68,6 +121,8 @@ small {
 .item-price {
     text-align: center;
 }
+
+
 
 
 /******Cart page*****/
@@ -177,6 +232,10 @@ small {
 
 /* sign up button */
 /* add #mymodal */
+.checkout-btn {
+    margin-left: 1000px;
+    margin-top: 30px;
+}
 #login-modal .modal-content {
     width: 25rem;
     margin: 0 auto;
@@ -219,6 +278,123 @@ small {
     width: 28rem;
     margin: 0 auto;
 }
+
+
+
+
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    margin-top: 35px;
+}
+
+.about .section-header {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: white;
+}
+.about .section-header p {
+    font-size: 22px;
+}
+
+.about .about-img {
+    position: relative;
+}
+
+.about .about-img img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about .about-content {
+    position: relative;
+}
+
+.about .about-text p {
+    font-size: 16px;
+    margin-left: 10px;
+    color: white;
+}
+
+.about .about-text a.btn {
+    background-color: #fbaf32;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.services .header {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    text-transform: uppercase;
+}
+.services .header span {
+    background-color: #fbaf32;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.services .services-img {
+    position: relative;
+    margin: 20px auto;
+}
+
+.services .services-img img {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/*******************************/
+/********* Contact CSS **********/
+/*******************************/
+
+
+.contact input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact textarea {
+    height: 120px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.contact-head h2 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.contact-head h2 span {
+    background-color: #fbaf32;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    color: white;
+}
+
+
 
 
 
@@ -288,6 +464,13 @@ small {
         margin: 0 auto;
         margin-bottom: 40px;
     }
+   .navbar .nav-item {
+       text-align: center;
+       margin-bottom: 5px;
+   }
+   .navbar .nav-item .cart {
+       text-align: center;
+   }
    
     /* footer */
     .footer-icons i {
