@@ -37,12 +37,87 @@
 			  <li class="nav-item"><a href="login.html" data-target="#login-modal" data-toggle="modal" class="nav-link"><i class="fas fa-user-alt"></i>Login</a></li>
 			  <li class="nav-item"><a href="cart.html" class="cart nav-link"><i class="fas fa-shopping-cart"></i><span>0</span></a></li>
 			</ul>
-
-						
-
 	      </div>
 		  </div>
 	  </nav>
+
+
+	  <!-- LOGIN MODAL -->
+	  <div class="modal fade" id="login-modal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 100px;" alt="">
+					<button type="button" class="close" data-dismiss="modal"> &times; </button>
+				</div>
+				<h3>Sign Up</h3>
+				<h6 class="text-center">Welcome Back</h6>
+
+				<div class="modal-body">
+					<form action="">
+						<div class="form-group">
+							<label for="username">Phone Number</label>
+							<input type="number" class="form-control" id="number">
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password">
+						</div>
+					</form>
+				</div>
+
+				<div class="modal-footer justify-content-start">
+					<button class="btn btn-danger" data-dismiss="modal">Sign In</button>
+					
+				</div>
+				<p>Don't Have a Account?<a href="" data-target="#register-modal" data-dismiss="modal" data-toggle="modal">  Register here</a></p>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Register Modal -->
+	<div class="modal fade" id="register-modal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 120px;" alt="">
+					<button type="button" class="close" data-dismiss="modal"> &times; </button>
+				</div>
+				<h3>Register</h3>
+				<h6 class="text-center">Glad to meet you</h6>
+
+			<div class="modal-body">
+				<form action="">
+					<div class="form-group">
+						<label for="username">Phone Number</label>
+						<input type="number" class="form-control" id="reg-number">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="form-group">
+						<label for="password">Create Password</label>
+						<input type="password" class="form-control" id="reg-password">
+					</div>
+					<div class="form-group">
+						<label for="password">Confirm Password</label>
+						<input type="password" class="form-control" id="reg-password2">
+					</div>
+				</form>
+			</div>
+
+			<div class="modal-footer justify-content-start">
+				<button class="btn btn-danger" data-dismiss="modal">Sign Up</button>
+				
+			</div>
+			</div>	
+		</div>
+	</div>
+	
 
 	<!-- slider images -->
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">

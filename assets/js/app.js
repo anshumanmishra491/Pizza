@@ -169,6 +169,8 @@ function displayCart() {
     let productContainer = document.querySelector('.products');
     let cartCost = localStorage.getItem('totalCost');
 
+    let emptyProduct = document.querySelector('.emptyproducts');
+
     
     if( cartItems && productContainer ) {
         productContainer.innerHTML = '';
@@ -197,6 +199,15 @@ function displayCart() {
         `;
 
     }
+
+    else {
+          emptyProduct.innerHTML = `<div class="empty-cart">    <h1>Cart Empty </h1>    <p>You Haven t Ordered a pizza yet.  To order a pizza go to the main page.
+        </p>  <img src="assets/images/empty-cart.png" alt="" width=200px height=200px/>
+    </div>`;
+    // emptyProduct.style.display ='';
+ 
+    }
+
 
     deleteButtons();
     manageQuantity();
