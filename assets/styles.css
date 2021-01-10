@@ -23,7 +23,7 @@ small {
 .navbar .navbar-nav .nav-link:hover {
     color: #fbaf32;
   }
-  @media only screen and (min-width: 960px) {
+  @media (min-width: 500px) and (max-width: 771px) {
     .navbar .navbar-nav .nav-link {
       padding: 1em 0.7em;
     }
@@ -33,6 +33,10 @@ small {
     .navbar .navbar-brand {
       padding: 0 0.7em;
     }
+
+    .navbar .navbar-nav .nav-link:hover::after {
+        width: 50%;
+      }
   }
   .navbar .navbar-nav .nav-link {
     position: relative;
