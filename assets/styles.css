@@ -1,5 +1,7 @@
 /* *******Home Page */
 
+
+
 .ftco-navbar-light {
     background: #121618 !important;
     z-index: 3;
@@ -68,7 +70,8 @@ small {
 .carousel-inner .container {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    margin-top: 20px;
   }
 .carousel-text {
     padding-left: 20px;
@@ -235,6 +238,7 @@ small {
 .checkout-btn {
     margin-left: 1000px;
     margin-top: 30px;
+
 }
 #login-modal .modal-content {
     width: 25rem;
@@ -279,6 +283,18 @@ small {
     margin: 0 auto;
 }
 
+
+#address-modal .custom-add {
+    width: 100%;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: 600;
+    border-radius: 5px; 
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
 
 
 
@@ -447,13 +463,88 @@ small {
     left: 21px;
 }
 
+.footer-icons li i:hover {
+    color: #fbaf32;
+  }
+
 
 
   /* END FOOTER */ 
 
 
 
-
+  *{
+    box-sizing:border-box;
+   /* outline:1px solid ;*/
+  }
+ 
+  
+  .thank-content .wrapper-1{
+    width:100%;
+    height:100vh;
+    display: flex;
+  flex-direction: column;
+  }
+  .thank-content .wrapper-2{
+    padding :30px;
+    text-align:center;
+  }
+ .thank-content h1{
+      font-family: 'Kaushan Script', cursive;
+    font-size:4em;
+    letter-spacing:3px;
+    color:#5892FF ;
+    margin:0;
+    margin-bottom:20px;
+  }
+  .thank-content  .wrapper-2 p{
+    margin:0;
+    font-size:1.3em;
+    color:#aaa;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
+  }
+  
+  .footer-like{
+    margin-top: auto; 
+    background:#D7E6FE;
+    padding:6px;
+    text-align:center;
+  }
+  .footer-like p{
+    margin:0;
+    padding:4px;
+    color:#5892FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
+  }
+  .footer-like p a{
+    text-decoration:none;
+    color:#5892FF;
+    font-weight:600;
+  }
+  
+  @media (min-width:360px){
+    .thank-content h1{
+      font-size:4.5em;
+    }
+    
+  }
+  
+  @media (min-width:600px){
+    .thank-content{
+    max-width:1000px;
+    margin:0 auto;
+  }
+  .thank-content .wrapper-1{
+    height: initial;
+    max-width:620px;
+    margin:0 auto;
+    margin-top:50px;
+    box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+  }
+    
+  }
   
 
 

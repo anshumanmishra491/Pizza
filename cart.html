@@ -42,28 +42,6 @@
 
 	  <div class="cart"><a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i>Cart <span>0</span></a></div>
 
-<!-- 
-    <div class="cart-container center">
-        <div class="cart-header">
-			<div class="d-flex justify-content-center">
-				<img src="assets/images/cart-black.png" alt="">
-            	<h1>Order Summary</h1>
-            </div>
-        </div>
-        <div class="products">
-			<div class="d-flex justify-content-center">
-				<img src="assets/images/Margherita.jpg" alt="" width=200px height=150px>
-				<div>
-					<h3>Margherita</h3>
-				</div>
-				<span>1 pcs</span>
-				<span class="font-bold">199</span>
-			</div>
-
-
-        </div>
-	</div>   -->
-	
 
 
 	<div class="container-products">
@@ -98,82 +76,45 @@
 
 	
 
-		<button class="btn btn-lg checkout-btn" data-target="#login-modal" data-toggle="modal">Proceed to Checkout</button>
+		<button class="btn btn-lg btn-success checkout-btn" data-target="#address-modal" data-toggle="modal">Proceed to Checkout</button>
 
-		<div class="modal fade" id="login-modal">
+		<div class="modal fade" id="address-modal">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
-						<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 100px;" alt="">
+						<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 160px;" alt="">
 						<button type="button" class="close" data-dismiss="modal"> &times; </button>
 					</div>
-					<h3>Sign Up</h3>
-					<h6 class="text-center">Welcome Back</h6>
-
+					<h3 style="margin-left: 10px;">  Address</h3>
 					<div class="modal-body">
 						<form action="">
 							<div class="form-group">
-								<label for="username">Phone Number</label>
-								<input type="number" class="form-control" id="number">
+								<label for="username">Line 1</label>
+								<input type="text" class="form-control" id="reg-number">
 							</div>
 							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password">
+								<label for="email">Line 2</label>
+								<input type="text" class="form-control" id="email">
+							</div>
+							<div class="form-group">
+								<label for="password">City</label>
+								<input type="text" class="form-control" id="reg-password">
+							</div>
+							<div class="form-group">
+								<label for="password">Pincode</label>
+								<input type="number" class="form-control" id="reg-password2">
 							</div>
 						</form>
 					</div>
-
+	
 					<div class="modal-footer justify-content-start">
-						<button class="btn btn-danger" data-dismiss="modal">Sign In</button>
-						
+						<!-- <button class="btn btn-danger" data-dismiss="modal">Submit</button> -->
+						<a href="payment.html" class="btn custom-add">Submit</a>
 					</div>
-					<p>Don't Have a Account?<a href="" data-target="#register-modal" data-dismiss="modal" data-toggle="modal">  Register here</a></p>
-
-
+	
+						</div>	
+					</div>
 				</div>
-			</div>
-		</div>
-
-
-
-	<div class="modal fade" id="register-modal">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<img src="assets/images/flaticon/logo-retina.png" width="170rem" style="margin-left: 120px;" alt="">
-					<button type="button" class="close" data-dismiss="modal"> &times; </button>
-				</div>
-				<h3>Register</h3>
-				<h6 class="text-center">Glad to meet you</h6>
-
-				<div class="modal-body">
-					<form action="">
-						<div class="form-group">
-							<label for="username">Phone Number</label>
-							<input type="number" class="form-control" id="reg-number">
-						</div>
-						<div class="form-group">
-							<label for="email">Email</label>
-							<input type="email" class="form-control" id="email">
-						</div>
-						<div class="form-group">
-							<label for="password">Create Password</label>
-							<input type="password" class="form-control" id="reg-password">
-						</div>
-						<div class="form-group">
-							<label for="password">Confirm Password</label>
-							<input type="password" class="form-control" id="reg-password2">
-						</div>
-					</form>
-				</div>
-
-				<div class="modal-footer justify-content-start">
-					<button class="btn btn-danger" data-dismiss="modal">Sign Up</button>
-					
-				</div>
-					</div>	
-				</div>
-			</div>
 		
 
 	<!-- Footer -->
@@ -188,11 +129,8 @@
 			  Sunday Closed
 			  <hr class="visible-xs">
 			</section>
-			<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>	
+		     
+			
 			<section id="address" class="col-sm-4">
 			  <span>Address:</span><br>
 			  7105 Dhayari Road<br>
@@ -202,24 +140,21 @@
 			</section>
 			<section id="testimonials" class="col-sm-4">
 			  <p>"Order a delicious pizza on the go, anywhere, anytime. Pizza Delicious is happy to assist you with your home delivery."</p>
-			  <ul style="list-style : none; margin-top: 40px;">
-				<li><a href="#"><i class="fas fa-phone-alt fa-lg" style="letter-spacing: 10px;"></i><span class="text">+2 392 3929 210</span></a></li>
-				<li><a href="#"><i class="far fa-envelope fa-lg" style="letter-spacing: 10px;"></i><span class="text">info@yourdomain.com</span></a></li>
+			  <ul style="list-style : none; margin-top: 50px;">
+				<li><a href="tel:// 1235 2355 98"><i class="fas fa-phone-alt fa-lg" style="letter-spacing: 10px;"></i><span class="text">+ 1235 2355 98</span></a></li>
+				<li><a href="mailto:info@yoursite.com"><i class="far fa-envelope fa-lg" style="letter-spacing: 10px;"></i><span class="text">info@yourdomain.com</span></a></li>
 			  </ul>
 			</section>
 		  </div>
-		  <ul class="footer-icons">
-			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-		</ul>
+		   	<ul class="footer-icons">
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            </ul>
 		  <div class="text-center">&copy; Copyright Pizza Delicious 2020</div>
 		</div>
 	  </footer>
       
-
-
-
 
       
   
